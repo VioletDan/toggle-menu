@@ -125,8 +125,8 @@
       },
       toggleMenuTransition(name, index, revert) {
         let oneArea = 90 / (this.menuItems.length - 1);
-        let axisX = Math.sin((this.menuItems.length - 1 - index) * oneArea * 2 * Math.PI / 360);
-        let axisY = Math.cos((this.menuItems.length - 1 - index) * oneArea * 2 * Math.PI / 360);
+        let axisX = Math.cos((this.menuItems.length - 1 - index) * oneArea * Math.PI / 180);
+        let axisY = Math.sin((this.menuItems.length - 1 - index) * oneArea * Math.PI / 180);
         let el = document.getElementById(name);
         let that = this;
         if (!revert) {
