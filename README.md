@@ -1,4 +1,4 @@
-引入组件
+<!-- 引入组件
 ```vue
 import toggleMenu from './toggleMenu'
 ```
@@ -38,4 +38,5 @@ menuItems: [
 
 方法
 
-clickMenu   参数（item,index）  点击的对象及其下标
+clickMenu   参数（item,index）  点击的对象及其下标 -->
+借鉴掘进上的信心作者的弹弹弹,弹走鱼尾纹,,哈哈原作者写的还是不错的
